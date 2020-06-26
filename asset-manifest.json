@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pseudoabyss/pseudoabyss.github.io/static/css/main.5f361e03.chunk.css",
+    "main.js": "/pseudoabyss/pseudoabyss.github.io/static/js/main.70c82e92.chunk.js",
+    "main.js.map": "/pseudoabyss/pseudoabyss.github.io/static/js/main.70c82e92.chunk.js.map",
+    "runtime-main.js": "/pseudoabyss/pseudoabyss.github.io/static/js/runtime-main.de88f996.js",
+    "runtime-main.js.map": "/pseudoabyss/pseudoabyss.github.io/static/js/runtime-main.de88f996.js.map",
+    "static/js/2.733e6aa4.chunk.js": "/pseudoabyss/pseudoabyss.github.io/static/js/2.733e6aa4.chunk.js",
+    "static/js/2.733e6aa4.chunk.js.map": "/pseudoabyss/pseudoabyss.github.io/static/js/2.733e6aa4.chunk.js.map",
+    "index.html": "/pseudoabyss/pseudoabyss.github.io/index.html",
+    "precache-manifest.ebfa6d06902167937132b1c6c3201cbc.js": "/pseudoabyss/pseudoabyss.github.io/precache-manifest.ebfa6d06902167937132b1c6c3201cbc.js",
+    "service-worker.js": "/pseudoabyss/pseudoabyss.github.io/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/pseudoabyss/pseudoabyss.github.io/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.733e6aa4.chunk.js.LICENSE.txt": "/pseudoabyss/pseudoabyss.github.io/static/js/2.733e6aa4.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/pseudoabyss/pseudoabyss.github.io/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.de88f996.js",
+    "static/js/2.733e6aa4.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.70c82e92.chunk.js"
+  ]
+}
