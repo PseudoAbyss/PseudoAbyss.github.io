@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Electromagnetic Digital Goodness',
   url: 'https://pseudoabyss.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'pseudoabyss', // Usually your GitHub org/user name.
@@ -43,32 +43,20 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
+          title: ' ',
           items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
           ],
         },
         {
-          title: 'More',
+          title: 'Links',
           items: [
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/pseudoabyss',
+            },
             {
               label: 'Blog',
               to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
             },
           ],
         },

@@ -1,6 +1,8 @@
 ---
 id: station0d
 title: Station 0D
+sidebar_label: Station 0D
+slug: /
 ---
 
 You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
