@@ -1,5 +1,8 @@
 module.exports = {
-  someSidebar: {
-    Games: ['station0d'],
+  gameSidebar: {
+    Games: ['games/station0d'],
+  },
+  musicSidebar: {
+    Music: ['music/purebox'],
   },
 };
