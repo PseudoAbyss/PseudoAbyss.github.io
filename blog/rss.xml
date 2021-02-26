@@ -2,28 +2,28 @@
 <rss version="2.0">
     <channel>
         <title>Pseudo Abyss Blog</title>
-        <link>https://pseudoabyss.com/blog</link>
+        <link>https://pseudoabyss.github.io/blog</link>
         <description>Pseudo Abyss Blog</description>
         <lastBuildDate>Fri, 26 Feb 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[New site]]></title>
-            <link>https://pseudoabyss.com/blog/2021/02/26/New site</link>
+            <link>https://pseudoabyss.github.io/blog/2021/02/26/New site</link>
             <guid>New site</guid>
             <pubDate>Fri, 26 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[New fresh site for Pseudo Abyss is now functional.]]></description>
         </item>
         <item>
             <title><![CDATA[Hello]]></title>
-            <link>https://pseudoabyss.com/blog/hello-world</link>
+            <link>https://pseudoabyss.github.io/blog/hello-world</link>
             <guid>hello-world</guid>
             <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Welcome to this blog. This blog is created with Docusaurus 2 alpha.]]></description>
         </item>
         <item>
             <title><![CDATA[Hola]]></title>
-            <link>https://pseudoabyss.com/blog/hola</link>
+            <link>https://pseudoabyss.github.io/blog/hola</link>
             <guid>hola</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
