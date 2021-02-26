@@ -17,18 +17,18 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/games/',
-          activeBasePath: 'docs',
+          to: 'pages/games/',
+          activeBasePath: 'games',
           label: 'Games',
           position: 'left',
         },
         {
-          to: 'docs/music/',
-          activeBasePath: 'docs/music',
+          to: 'pages/music/',
+          activeBasePath: 'music',
           label: 'Music',
           position: 'left',
         },
-        {to: 'blog', label: 'News', position: 'left'},
+        {to: 'news', label: 'News', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
@@ -75,12 +75,14 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          routeBasePath: 'pages',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
+          routeBasePath: 'news',
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
