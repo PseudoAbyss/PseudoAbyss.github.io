@@ -1,8 +1,8 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Pseudo Abyss',
+  tagline: 'Electromagnetic Digital Goodness',
   url: 'https://pseudoabyss.github.io',
-  baseUrl: '/build/index',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'pseudoabyss.github.io', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Pseudo Abyss',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -19,7 +19,7 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Games',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
@@ -34,15 +34,11 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Games',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Station 0D',
+              to: 'docs/station0d/',
             },
           ],
         },
@@ -77,7 +73,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Pseudo Abyss - ${new Date().getFullYear()}`,
     },
   },
   presets: [
