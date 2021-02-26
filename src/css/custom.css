@@ -7,8 +7,8 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary: rgb(160, 24, 90);
+  --ifm-color-primary-dark: rgb(197, 59, 105);
   --ifm-color-primary-darker: rgb(31, 165, 136);
   --ifm-color-primary-darkest: rgb(26, 136, 112);
   --ifm-color-primary-light: rgb(70, 203, 174);
@@ -18,8 +18,39 @@
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
+  background-color: rgb(76, 67, 82);
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+.hero {
+  --ifm-color-primary: rgb(15, 11, 13);
+}
+
+h1 {
+  color:rgb(245, 245, 245)
+}
+
+.hero__subtitle {
+  color:rgb(245, 245, 245)
+}
+
+.footer--dark{
+  background-color: rgb(27, 28, 29);
+}
+
+.main_home {
+  background-image: url('/img/pure-box.jpg');
+  background-size: cover;
+  background-position-y: top;
+  display: flex;
+  flex-direction: column;
+  flex: 1
+}
+
+.main-wrapper {
+
+  display: flex;
+  flex-direction: column;
 }
