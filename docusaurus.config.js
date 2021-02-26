@@ -61,8 +61,8 @@ module.exports = {
               href: 'https://twitter.com/pseudoabyss',
             },
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'News',
+              to: 'news',
             },
           ],
         },
