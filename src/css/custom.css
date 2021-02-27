@@ -25,15 +25,15 @@
 }
 
 .hero {
-  --ifm-color-primary: rgb(15, 11, 13);
+  --ifm-color-primary: rgb(20, 16, 18);
 }
 
 h1 {
-  color:rgb(245, 245, 245)
+  color:rgb(245, 245, 245);
 }
 
 .hero__subtitle {
-  color:rgb(245, 245, 245)
+  color: rgb(255, 50, 118);
 }
 
 .footer--dark{
@@ -46,11 +46,17 @@ h1 {
   background-position-y: top;
   display: flex;
   flex-direction: column;
-  flex: 1
+  flex: 1;
+  border-top: 0.25rem solid rgb(202, 35, 116);
+  border-bottom: 0.25rem solid rgb(160, 24, 90);
 }
 
 .main-wrapper {
 
   display: flex;
   flex-direction: column;
+}
+
+.markdown > img {
+  border: 0.25rem solid rgb(202, 35, 116);
 }

@@ -3,6 +3,6 @@ module.exports = {
     Games: ['games/station0d'],
   },
   musicSidebar: {
-    Music: ['music/purebox'],
+    Music: ['music/thepurebox', 'music/0d'],
   },
 };
