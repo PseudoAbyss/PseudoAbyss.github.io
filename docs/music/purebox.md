@@ -2,7 +2,6 @@
 id: thepurebox
 title: The Pure Box
 sidebar_label: The Pure Box
-slug: /music/
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

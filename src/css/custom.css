@@ -37,6 +37,7 @@ h1 {
 }
 
 .footer--dark{
+  border-top: 0.25rem solid rgb(202, 35, 116);
   background-color: rgb(27, 28, 29);
 }
 
@@ -48,7 +49,6 @@ h1 {
   flex-direction: column;
   flex: 1;
   border-top: 0.25rem solid rgb(202, 35, 116);
-  border-bottom: 0.25rem solid rgb(160, 24, 90);
 }
 
 .main-wrapper {

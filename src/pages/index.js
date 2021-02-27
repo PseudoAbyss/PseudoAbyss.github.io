@@ -68,7 +68,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('pages/games/')}>
+              to={useBaseUrl('pages/games/station0d')}>
               Games
             </Link>
             <Link
@@ -76,7 +76,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('pages/music/')}>
+              to={useBaseUrl('pages/music/thepurebox')}>
               Music
             </Link>
           </div>

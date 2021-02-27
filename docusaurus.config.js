@@ -27,13 +27,13 @@ module.exports = {
       },
       items: [
         {
-          to: 'pages/games/',
+          to: 'pages/games/station0d',
           activeBasePath: 'games',
           label: 'Games',
           position: 'left',
         },
         {
-          to: 'pages/music/',
+          to: 'pages/music/thepurebox',
           activeBasePath: 'music',
           label: 'Music',
           position: 'left',
@@ -49,13 +49,21 @@ module.exports = {
           items: [
             {
               label: 'Station 0D',
-              to: 'docs/station0d/',
+              to: 'pages/games/station0d/',
             },
           ],
         },
         {
-          title: ' ',
+          title: 'Music',
           items: [
+            {
+              label: 'The Pure Box',
+              to: 'pages/music/thepurebox/',
+            },
+            {
+              label: '0D',
+              to: 'pages/music/0d/',
+            },
           ],
         },
         {
@@ -72,7 +80,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Pseudo Abyss - ${new Date().getFullYear()}`,
+      // copyright: `Pseudo Abyss - ${new Date().getFullYear()}`,
     },
   },
   presets: [
