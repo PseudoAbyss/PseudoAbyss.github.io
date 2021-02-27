@@ -67,11 +67,11 @@ module.exports = {
           ],
         },
         {
-          title: 'Updates',
+          title: 'Links',
           items: [
             {
-              label: 'News',
-              to: 'news',
+              label: 'Spotify',
+              href: 'spotify:artist:23sotjRXcNLzDMLwFtyyXA',
             },
             {
               label: 'Twitter',
