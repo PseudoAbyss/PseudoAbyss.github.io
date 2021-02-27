@@ -70,12 +70,12 @@ module.exports = {
           title: 'Links',
           items: [
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/pseudoabyss',
-            },
-            {
               label: 'News',
               to: 'news',
+            },
+            {
+              label: 'Twitter',
+              href: 'https://twitter.com/pseudoabyss',
             },
           ],
         },
