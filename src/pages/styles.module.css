@@ -5,8 +5,12 @@
  * and scoped locally.
  */
 
+.main-wrapper > .heroBanner {
+  padding: 0rem 0;
+}
+
 .heroBanner {
-  padding: 4rem 0;
+  padding: 0rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -14,7 +18,7 @@
 
 @media screen and (max-width: 966px) {
   .heroBanner {
-    padding: 2rem;
+    padding: 0rem;
   }
 }
 

@@ -90,16 +90,28 @@ module.exports = {
         docs: {
           routeBasePath: 'pages',
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
           routeBasePath: 'news',
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            /**
+           * Blog page title for better SEO
+           */
+          blogTitle: 'News',
+          /**
+           * Blog page meta description for better SEO
+           */
+          blogDescription: 'News',
+          /**
+           * Number of blog post elements to show in the blog sidebar
+           * 'ALL' to show all blog posts
+           * 0 to disable
+           */
+          blogSidebarCount: 5,
+          /**
+           * Title of the blog sidebar
+           */
+          blogSidebarTitle: 'News',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

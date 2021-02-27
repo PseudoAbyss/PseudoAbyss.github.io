@@ -26,10 +26,38 @@
 
 .hero {
   --ifm-color-primary: rgb(20, 16, 18);
+  background-image: url('/img/tileset.png');
+  background-size:contain;
+  image-rendering: pixelated;
+}
+
+.hero > .container {
+  background-color: rgba(20, 16, 18, 0.822);
+  box-shadow: 0px 0px 20rem 12rem rgba(20, 16, 18, 0.822);
+  padding: 2rem 0;
+}
+
+@media screen and (max-width: 966px) {
+  .hero > .container {
+    padding: 2rem 0;
+  }
+}
+
+
+.heroBanner_src-pages- {
+  padding: 0rem 0;
 }
 
 h1 {
   color:rgb(245, 245, 245);
+}
+
+.hero > * > h1  {
+  text-shadow: 0px 0px 1arem rgba(0, 0, 0, 1);
+}
+
+.hero > * > p  {
+  text-shadow: 0px 0px 1arem rgba(0, 0, 0, 1);
 }
 
 .hero__subtitle {
