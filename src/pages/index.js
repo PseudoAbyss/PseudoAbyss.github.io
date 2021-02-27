@@ -71,6 +71,14 @@ function Home() {
               to={useBaseUrl('pages/games/')}>
               Games
             </Link>
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              to={useBaseUrl('pages/music/')}>
+              Music
+            </Link>
           </div>
         </div>
       </header>

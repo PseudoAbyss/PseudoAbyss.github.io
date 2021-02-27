@@ -24,6 +24,11 @@
   justify-content: center;
 }
 
+.buttons > *:not(:last-child) {
+  display: block;
+  margin-right: 2rem; 
+} 
+
 .features {
   display: flex;
   align-items: center;
