@@ -67,7 +67,7 @@ module.exports = {
           ],
         },
         {
-          title: 'Links',
+          title: 'Updates',
           items: [
             {
               label: 'News',
@@ -76,6 +76,16 @@ module.exports = {
             {
               label: 'Twitter',
               href: 'https://twitter.com/pseudoabyss',
+            },
+          ],
+        },
+        {
+          title: 'Contact',
+          items: [
+
+            {
+              label: 'pseudoabyss@gmail.com',
+              href: 'mailto:pseudoabyss@gmail.com',
             },
           ],
         },
