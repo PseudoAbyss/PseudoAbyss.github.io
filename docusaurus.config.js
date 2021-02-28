@@ -20,10 +20,10 @@ module.exports = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Pseudo Abyss',
+      title: '',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.png',
+        alt: 'Pseudo Abyss Logo',
+        src: 'img/logo/pseudoabyss_logo_1.svg',
       },
       items: [
         {
