@@ -744,19 +744,16 @@ ul.pagination {
 html, body {
   box-sizing: border-box; }
 
+.content {
+  background-color: #eaeaea;
+  padding: 20px;
+  margin: 20px; }
+
 body {
-  background: var(--base-color);
+  background-image: linear-gradient(to bottom, var(--highlight-color), #f7efce 50%, var(--highlight-color) 100%);
   font-family: var(--font-family-paragraph);
   color: var(--text-color);
-  margin: 0;
-  padding: 20px;
   overflow-x: hidden; }
-  @media (min-width: 767px) {
-    body {
-      padding: 50px; } }
-  body.frame {
-    min-height: 100vh;
-    border: 18px solid var(--highlight-color); }
 
 .wrapper {
   max-width: 1000px;
