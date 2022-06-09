@@ -2,7 +2,7 @@
 title: New site
 date: 2022-06-09
 description: 'The new site is now up and running.'
-image: images/pyra.png
+image: images/pyra.jpg
 ---
 
 ## Simpler and cleaner design
