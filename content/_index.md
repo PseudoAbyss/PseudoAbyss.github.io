@@ -1,5 +1,5 @@
 ---
-title: Making Sci-fi adventures
+title: Making Sci-Fi Adventures
 description: Space space space spac..e..
 ---
 
