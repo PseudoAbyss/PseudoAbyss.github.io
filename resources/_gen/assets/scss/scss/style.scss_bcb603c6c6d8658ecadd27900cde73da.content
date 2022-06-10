@@ -762,4 +762,29 @@ body {
   max-width: 1000px;
   margin: 0 auto; }
 
+input {
+  width: 75%;
+  height: 2.5em; }
+
+textarea {
+  width: 75%;
+  resize: none;
+  height: 15em;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(#767676, #858585);
+  border-image: initial; }
+
+.form-input {
+  margin-top: 5px;
+  background-color: #fff; }
+
+.form-button {
+  font-size: 14px;
+  background-color: #6b7ddf;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 35px;
+  margin: 5px 0 0 0; }
+
 /*# sourceMappingURL=style.css.map */

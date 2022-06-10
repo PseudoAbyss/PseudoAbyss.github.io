@@ -1,6 +1,7 @@
 ---
 title: 'Music'
 image: ''
+weight: 3
 menu:
   main:
     name: "Music"
