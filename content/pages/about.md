@@ -9,6 +9,8 @@ menu:
 
 ## Pseudo Abyss
 
-Making games, music and art
+> Games - Music - Art
 
-> Create and destroy shit, you know
+Pseudo Abyss is a solo developer / artist studio run by Gustav Beije
+
+Located in Sundsvall, Sweden
