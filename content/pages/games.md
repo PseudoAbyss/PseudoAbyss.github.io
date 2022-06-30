@@ -11,7 +11,7 @@ menu:
 
 ## Star Devil
 
-Sci-fi station survival roguelike
+Sci-fi Station Survival Roguelike
 
 {{< figure src="/images/star-devil/green-1.jpg" title="" >}}
 
