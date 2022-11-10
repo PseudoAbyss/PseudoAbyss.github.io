@@ -11,17 +11,17 @@ menu:
 
 ## Star Devil
 
-Sci-fi Space Station Survival Roguelike
+Star Devil is a Sci-fi Station Survival Roguelike Game with dynamic alien infection. Playable in both single player and split-screen co-op.
 
-{{< figure src="/images/star-devil/green-1.jpg" title="" >}}
+{{< youtube id="mIqM1jYAOEk" modestbranding="true" autoplay="true" title="Star Devil trailer" >}}
 
-{{< figure src="/images/star-devil/yellow-1.jpg" title="" >}}
+&nbsp;
+
+<iframe src="https://store.steampowered.com/widget/2082900/" frameborder="0" width="100%" height="190"></iframe>
 
 &nbsp;
 
 ---
-
-<iframe src="https://store.steampowered.com/widget/2082900/" frameborder="0" width="646" height="190"></iframe>
 
 ## Other projects
 
