@@ -1,5 +1,5 @@
 ---
-title: 'About'
+title: "About"
 image: images/author.jpg
 weight: 1
 menu:
@@ -11,6 +11,6 @@ menu:
 
 > Games - Music - Art
 
-Pseudo Abyss is a solo developer / artist studio run by Gustav Beije
+Pseudo Abyss is the alias used for the creative works of Gustav Beije.
 
-Located in Sundsvall, Sweden
+Located in Stockholm, Sweden

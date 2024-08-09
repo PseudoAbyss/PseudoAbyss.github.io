@@ -1,7 +1,7 @@
 ---
 title: New site
-date: 2022-06-09
-description: 'The new site is now up and running.'
+date: 2023-06-09
+description: "The new site is now up and running."
 image: images/pyra.jpg
 ---
 
