@@ -2,11 +2,11 @@
     --font-family-heading: 'Poppins', sans-serif;
     --font-family-paragraph: Helvetica, sans-serif;
     --font-family-mono: monospace;
-    --base-color: #ffffff;
+    --base-color: #151516;
     --base-offset-color: #eaeaea;
-    --highlight-color: {{ .Site.Params.highlightColor | default "#7b16ff" }};
-    --heading-color: #1c1b1d;
-    --text-color: #4e5157;
+    --highlight-color: #8957fd; //{{ .Site.Params.highlightColor | default "#7b16ff" }};
+    --heading-color: #c057fd; 
+    --text-color: #dadee6;
 }
 
 $breakpoints: (
@@ -33,7 +33,10 @@ box-sizing: border-box;
 }
 
 body {
-background: var(--base-color);
+// background: var(--base-color);
+background: #262626;
+background: linear-gradient(0deg,rgba(38, 38, 38, 1) 0%, rgba(21, 5, 38, 1) 100%);
+
 font-family: var(--font-family-paragraph);
 color: var(--text-color);
 margin: 0;
@@ -53,32 +56,58 @@ overflow-x: hidden;
     margin: 0 auto;
 }  
 
+form {
+    border-style: unset;
+    color: var(--text-color);
+}
+
 input {
     width: 75%;
     height: 2.5em;
+    border-style: unset;
+    color: var(--text-color);
 }
 
 textarea {
     width: 75%;
     resize: none;
     height: 15em;
+    color: var(--text-color);
 
     border-width: 2px;
-    border-style: inset;
+    border-style: unset;
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
 }
 
 .form-input {
     margin-top: 5px;
-    background-color: #fff; 
+    background-color: var(--base-color);
 }
 
 .form-button {
     font-size:14px;
-    background-color:#6b7ddf;
-    color:#fff;
+    background-color:var(--highlight-color);
+    color:var(--text-color);
     font-weight:bold;
     padding:10px 35px;
     margin: 5px 0 0 0;
+    border-style: unset;
+}
+
+button {
+    font-size:14px;
+    background-color: var(--highlight-color);
+    color:var(--text-color);
+    font-weight:bold;
+    padding:10px 35px;
+    margin: 5px 0 0 0;
+}
+
+.social-icon {
+    filter: invert(100%)
+}
+
+hr {
+    border-color: var(--heading-color);
 }

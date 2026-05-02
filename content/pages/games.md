@@ -15,6 +15,8 @@ Phantom Ash is an upcoming physics-based action-adventure VR game.
 
 {{< youtube id="NgmiRAZLjoU" modestbranding="true" autoplay="true" title="Phantom Ash | Pre-Alpha Gameplay" >}}
 
+<br><br>
+
 ---
 &nbsp;
 

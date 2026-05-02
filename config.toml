@@ -25,7 +25,7 @@ paginate = 3
   addFrame = true
   addDot = true
 
-  highlightColor = '#d3bd75'
+  highlightColor = '#d82478'
 
 [markup.goldmark.renderer]
 unsafe = true

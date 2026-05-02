@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="contact-page">
+  <h1>Contact</h1>
+  
+  {{ partial "contact-form.html" . }}
+</div>
+{{ end }}
+
+{{ define "footer_js" }}
+  {{ partial "forminit-script.html" . }}
+{{ end }}
