@@ -8,8 +8,6 @@ menu:
     
 ---
 
-&nbsp;
-
 ## Phantom Ash
 
 Phantom Ash is an upcoming physics-based action-adventure VR game.
@@ -19,7 +17,6 @@ Phantom Ash is an upcoming physics-based action-adventure VR game.
 <br><br>
 
 ---
-&nbsp;
 
 ## Star Devil
 
