@@ -2,11 +2,11 @@
 title: 'Contact'
 hasForm: true
 image: ''
-weight: 4
+weight: 5
 menu:
   main:
     name: "Contact"
-    
+
 ---
 
 {{< contact-form >}}

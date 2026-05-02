@@ -1,7 +1,7 @@
 ---
 title: 'Games'
 image: ''
-weight: 2
+weight: 1
 menu:
   main:
     name: "Games"

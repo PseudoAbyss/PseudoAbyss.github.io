@@ -1,11 +1,11 @@
 ---
 title: "About"
 image: images/author.jpg
-weight: 1
+weight: 4
 menu:
   main:
     name: "About"
-    
+
 ---
 
 ## Pseudo Abyss
