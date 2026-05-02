@@ -20,6 +20,7 @@ paginate = 3
   showAuthorOnHomepage = true
   showAuthorOnPosts = false
   showPostsOnHomepage = false
+  showIntroContentOnHomepage = true
 
   addFrame = true
   addDot = true
