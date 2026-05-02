@@ -64,6 +64,9 @@
   {{ end }}
 
   {{ block "footer_js" . }}
+    {{ if .Params.hasForm }}
+      {{ partial "forminit-script.html" . }}
+    {{ end }}
   {{ end }}
 
   {{ partial "google-analytics.html" . }}

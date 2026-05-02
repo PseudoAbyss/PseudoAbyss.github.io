@@ -1,33 +1,35 @@
 <script src="https://forminit.com/sdk/v1/forminit.js"></script>
 
 <script>
-  const forminit = new Forminit();
-  const FORM_ID = 'jqsl16a8ku3';
+  document.addEventListener('DOMContentLoaded', function() {
+    const forminit = new Forminit();
+    const FORM_ID = 'jqsl16a8ku3';
 
-  const form = document.getElementById('contact-form');
-  const status = document.getElementById('form-status');
+    const form = document.getElementById('contact-form');
+    const status = document.getElementById('form-status');
 
-  form.addEventListener('submit', async function(event) {
-    console.log("dfssfdfsdsfdsfddfs");
-    event.preventDefault();
-    
-    // Show loading state
-    status.textContent = 'Sending...';
-    status.className = 'status-loading';
-
-    const formData = new FormData(form);
-    const { data, error } = await forminit.submit(FORM_ID, formData);
-    
-
-    if (error) {
-      status.textContent = error.message;
-      status.className = 'status-error';
+    if (!form) {
+      console.error('contact-form element not found');
       return;
     }
 
-    // Success
-    status.textContent = 'Message sent successfully!';
-    status.className = 'status-success';
-    form.reset();
+    form.addEventListener('submit', async function(event) {
+      event.preventDefault();
+      status.textContent = 'Sending...';
+      status.className = 'status-loading';
+
+      const formData = new FormData(form);
+      const { data, error } = await forminit.submit(FORM_ID, formData);
+
+      if (error) {
+        status.textContent = error.message;
+        status.className = 'status-error';
+        return;
+      }
+
+      status.textContent = 'Message sent successfully!';
+      status.className = 'status-success';
+      form.reset();
+    });
   });
 </script>

@@ -1,6 +1,6 @@
 ---
 title: 'Contact'
-layout: 'contact'
+hasForm: true
 image: ''
 weight: 4
 menu:
@@ -8,3 +8,4 @@ menu:
     name: "Contact"
 ---
 
+{{< contact-form >}}
