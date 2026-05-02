@@ -9,10 +9,10 @@ menu:
 ---
 &nbsp;
 
-## Future Sushi
-{{< figure src="/images/future_sushi_cover.jpg" title="" >}}
+## Reborn Frequencies
+{{< figure src="/images/reborn_frequencies_cover.jpg" title="" >}}
 
-{{< spotify type="album" id="75WfZpzOsF04UkC8txIvYO" width="100%" height="250" >}}
+{{< spotify type="album" id="3bmO1MKb6mRALn2HMjCpRj" width="100%" height="250" >}}
 
 &nbsp;
 
