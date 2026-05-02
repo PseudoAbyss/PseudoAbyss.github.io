@@ -65,6 +65,32 @@
  height="250"
  frameborder="0"
  allowtransparency="true"
- allow="encrypted-media"&gt;&lt;/iframe&gt;</description></item><item><title>Contact</title><link>https://pseudoabyss.com/pages/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pseudoabyss.com/pages/contact/</guid><description/></item><item><title>New site</title><link>https://pseudoabyss.com/posts/new_site/</link><pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate><guid>https://pseudoabyss.com/posts/new_site/</guid><description>&lt;h2 id="simpler-and-cleaner-design"&gt;Simpler and cleaner design&lt;/h2&gt;
+ allow="encrypted-media"&gt;&lt;/iframe&gt;</description></item><item><title>Contact</title><link>https://pseudoabyss.com/pages/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pseudoabyss.com/pages/contact/</guid><description>&lt;form id="contact-form"&gt;
+ &lt;div&gt;
+ &lt;label&gt;Name&lt;/label&gt;
+ &lt;div&gt;
+ &lt;input class="form-input" type="text" name="fi-sender-fullName" placeholder="Enter your name" required="required"&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;br&gt;
+ &lt;div&gt;
+ &lt;label&gt;Email&lt;/label&gt;
+ &lt;div&gt;
+ &lt;input class="form-input" type="email" name="fi-sender-email" placeholder="Enter your email" required="required"&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;br&gt;
+ &lt;div&gt;
+ &lt;label&gt;Message&lt;/label&gt;
+ &lt;div&gt;
+ &lt;textarea class="form-input" type="text" name="fi-text-message" placeholder="" required="required"&gt;&lt;/textarea&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;br&gt;
+ &lt;input type="hidden" name="utf8" value="✓"&gt;
+ &lt;button class="form-button" type="submit"&gt;SUBMIT&lt;/button&gt;
+&lt;/form&gt;
+
+&lt;p id="form-status"&gt;&lt;/p&gt;</description></item><item><title>New site</title><link>https://pseudoabyss.com/posts/new_site/</link><pubDate>Fri, 09 Jun 2023 00:00:00 +0000</pubDate><guid>https://pseudoabyss.com/posts/new_site/</guid><description>&lt;h2 id="simpler-and-cleaner-design"&gt;Simpler and cleaner design&lt;/h2&gt;
 &lt;p&gt;The new website has been designed with a simpler and cleaner design.
 Not much else to say about it.&lt;/p&gt;</description></item></channel></rss>
