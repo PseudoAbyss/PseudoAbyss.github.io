@@ -32,6 +32,10 @@ html, body {
 box-sizing: border-box;
 }
 
+html {
+    background: var(--highlight-color);
+}
+
 body {
 // background: var(--base-color);
 background: #262626;
@@ -47,7 +51,7 @@ overflow-x: hidden;
 }
 &.frame {
     min-height: 100vh;
-    border: 18px solid var(--highlight-color);
+    border: 5px solid var(--highlight-color);
 }
 }
 
