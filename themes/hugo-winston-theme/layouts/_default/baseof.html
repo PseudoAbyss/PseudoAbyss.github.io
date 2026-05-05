@@ -50,6 +50,9 @@
     {{ partial "header.html" . }}
     {{ block "main" . }}
     {{ end }}
+    {{ if .Params.hasForm }}
+      {{ partial "contact-form.html" . }}
+    {{ end }}
     {{ partial "footer.html" . }}
   </div>
 

@@ -9,4 +9,3 @@ menu:
 
 ---
 
-{{< contact-form >}}
