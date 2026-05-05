@@ -59,30 +59,4 @@
 &lt;p&gt;Games - Music - Art&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Pseudo Abyss is the alias used for the creative works of Gustav Beije.&lt;/p&gt;
-&lt;p&gt;Located in Stockholm, Sweden&lt;/p&gt;</description></item><item><title>Contact</title><link>https://pseudoabyss.com/pages/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pseudoabyss.com/pages/contact/</guid><description>&lt;form id="contact-form"&gt;
- &lt;div&gt;
- &lt;label&gt;Name&lt;/label&gt;
- &lt;div&gt;
- &lt;input class="form-input" type="text" name="fi-sender-fullName" placeholder="Enter your name" required="required"&gt;
- &lt;/div&gt;
- &lt;/div&gt;
- &lt;br&gt;
- &lt;div&gt;
- &lt;label&gt;Email&lt;/label&gt;
- &lt;div&gt;
- &lt;input class="form-input" type="email" name="fi-sender-email" placeholder="Enter your email" required="required"&gt;
- &lt;/div&gt;
- &lt;/div&gt;
- &lt;br&gt;
- &lt;div&gt;
- &lt;label&gt;Message&lt;/label&gt;
- &lt;div&gt;
- &lt;textarea class="form-input" type="text" name="fi-text-message" placeholder="" required="required"&gt;&lt;/textarea&gt;
- &lt;/div&gt;
- &lt;/div&gt;
- &lt;br&gt;
- &lt;input type="hidden" name="utf8" value="✓"&gt;
- &lt;button class="form-button" type="submit"&gt;SUBMIT&lt;/button&gt;
-&lt;/form&gt;
-
-&lt;p id="form-status"&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Located in Stockholm, Sweden&lt;/p&gt;</description></item><item><title>Contact</title><link>https://pseudoabyss.com/pages/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pseudoabyss.com/pages/contact/</guid><description/></item></channel></rss>
