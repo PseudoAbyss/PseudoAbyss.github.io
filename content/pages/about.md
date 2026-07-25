@@ -10,8 +10,8 @@ menu:
 
 ## Pseudo Abyss
 
-> Games - Music - Art
+> Music - Art
 
 Pseudo Abyss is the alias used for the creative works of Gustav Beije.
 
-Located in Stockholm, Sweden
+Stockholm, Sweden
